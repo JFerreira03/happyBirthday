@@ -10,9 +10,9 @@ body {
 }
 
 header {
-    display: flex; /* Added to enable flexbox */
-    flex-direction: column; /* Align children vertically */
-    justify-content: center; /* Center children vertically */
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
     align-items: center;
     text-align: center;
     padding: 50px;
