@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Comic Sans MS;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: hsl(351, 100%, 82%);
+    color: hsl(0, 0%, 100%);
+    height: 100vh;
+}
+
+.main-message {
+    font-size: 3rem;
+    margin-top: 50%;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.scroll-button {
+    cursor: pointer; 
+    margin-top: 30px;
+}
+
+.scroll-button:active svg,
+.scroll-button:hover svg,
+.scroll-button:focus svg {
+    fill: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsl(351, 100%, 90%);
+
+}
+
+.content {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content p span {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(351, 100%, 82%);
+    text-align: center;
+}
+
+.cute-duck {
+    width: 90%; 
+    height: 60%;
+    border: 2px solid #000;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.2);
+    vertical-align: middle;
+    background-color: #fee4cd;
+}
+
+.duck-message {
+    margin-top: 15px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 15px; 
+}
+
+button {
+    margin: 20px; 
+    padding: 10px 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(48, 98%, 64%);
+    color: black;
+}
+
+button:hover {
+    background-color: hsl(48, 98%, 50%);
+}
+
+button:active {
+    background-color: hsl(48, 98%, 35%);
+}
