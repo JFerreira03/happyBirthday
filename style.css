@@ -6,10 +6,14 @@
 
 body {
     background-color: #f0f0f0;
-    font-family: Comic Sans MS;
+    font-family: Comic Sans MS, sans-serif;;
 }
 
 header {
+    display: flex; /* Added to enable flexbox */
+    flex-direction: column; /* Align children vertically */
+    justify-content: center; /* Center children vertically */
+    align-items: center;
     text-align: center;
     padding: 50px;
     background-color: hsl(351, 100%, 82%);
@@ -19,7 +23,6 @@ header {
 
 .main-message {
     font-size: 3rem;
-    margin-top: 50%;
     font-weight: bold;
     border-radius: 10px;
 }
@@ -75,6 +78,7 @@ footer {
 .cute-duck {
     width: 90%; 
     height: 60%;
+    max-width: 300px; 
     border: 2px solid #000;
     border-radius: 15px;
     box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.2);
@@ -113,3 +117,4 @@ button:hover {
 button:active {
     background-color: hsl(48, 98%, 35%);
 }
+
