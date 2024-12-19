@@ -118,3 +118,8 @@ button:active {
     background-color: hsl(48, 98%, 35%);
 }
 
+#motivational-message {
+    font-size: large;
+    font-weight: bold;
+}
+
